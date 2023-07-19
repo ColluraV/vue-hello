@@ -17,9 +17,16 @@
 </head>
 <body>
     
-    <div id="app" class="row d-flex flex-column">
-        <div> <h1> {{ messaggio }} </h1> </div>
-        <div></div>
+    <div id="app" class="row d-flex flex-column relative">
+        <div class="absolute text-center">
+             
+            <h1 class="text-center "> {{ messaggio }} </h1> 
+            <p class="text-center"> {{sub}} </p>
+            <button class="btn btn-primary" @click="pressBtn"> QUI </button>
+        </div>
+        <img   v-bind:src="mieImg" alt="">
+
+
     </div>
 
 
