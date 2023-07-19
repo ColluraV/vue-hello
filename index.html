@@ -16,15 +16,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <div id="app" class="row d-flex flex-column relative">
-        <div class="absolute text-center gradient-white py-4">
              
-            <h1 class="text-center "> {{ messaggio }} </h1> 
-            <p class="text-center"> {{sub}} </p>
+    <div id="app" class="row d-flex flex-column relative">      <!--container di tutto-->
+
+
+        <div class="absolute text-center gradient-white py-4">
+                        
+             <h1 class="text-center "> {{ messaggio }} </h1>    <!--titolo-->
+
+             <p class="text-center"> {{sub}} </p>               <!--sotto titolo-->
+
             <button class="btn btn-primary" @click="pressBtn"> QUI </button>
         </div>
-        <img   v-bind:src="mieImg"  alt="">
+             
+        <img v-bind:src="mieImg"  alt="">                        <!--immagine fullscreen-->
 
 
     </div>
