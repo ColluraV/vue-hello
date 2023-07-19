@@ -35,13 +35,13 @@ createApp ({
             if (this.contatore == 2){
                 
                 this.messaggio = "Non esagerare che poi si rompe";
-                this.sub = "se proprio ci tieni premi ancora"
+                this.sub = "se proprio ci tieni premi ancora";
             }
             //scenario 3
             if (this.contatore == 3){
                 
                 this.messaggio = "Vabbè spacchiamo tutto";
-                this.sub = "fai cosa vuoi"
+                this.sub = "fai cosa vuoi";
                 this.contatore=0;
             
             }
